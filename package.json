@@ -1,0 +1,37 @@
+{
+  "name": "infomate-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for fetching news from infomate.club",
+  "packageManager": "bun@latest",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "xmcp dev & next dev --turbopack -p 3420",
+    "build": "xmcp build && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@vercel/analytics": "1.5.0",
+    "ajv": "^8.17.1",
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "^0.181.0",
+    "xmcp": "0.3.6",
+    "zod": "3.24.4"
+  },
+  "devDependencies": {
+    "@swc/core": "1.14.0",
+    "@types/express": "5.0.5",
+    "@types/minimatch": "^6.0.0",
+    "@types/node": "24.9.2",
+    "@types/react": "19.2.2",
+    "@types/three": "^0.180.0",
+    "nodemon": "3.1.10",
+    "shadcn": "latest",
+    "swc-loader": "^0.2.6",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  }
+}

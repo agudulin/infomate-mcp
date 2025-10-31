@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+.vercel
+dist
+.xmcp
+xmcp-env.d.ts
+.next
